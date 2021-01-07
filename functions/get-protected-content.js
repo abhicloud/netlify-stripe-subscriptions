@@ -20,7 +20,7 @@ const content = {
   },
   premium: {
     src:
-      'https://images.unsplash.com/photo-1546975490-e8b92a360b24?auto=format&fit=crop&w=600&h=600&q=80',
+      'https://images.unsplash.com/photo-1519098901909-b1553a1190af?auto=format&fit=crop&w=600&h=600&q=80',
     alt: 'corgi in a tent with string lights in the foreground',
     credit: 'Cole Keister',
     creditLink: 'https://unsplash.com/photos/cX-KEISwDIw',
@@ -41,10 +41,10 @@ exports.handler = async (event, context) => {
       statusCode: 402,
       body: JSON.stringify({
         src:
-          'https://res.cloudinary.com/jlengstorf/image/upload/q_auto,f_auto/v1592618179/stripe-subscription/subscription-required.jpg',
+          'hhttps://images.unsplash.com/photo-1519098901909-b1553a1190af?auto=format&fit=crop&w=600&h=600&q=80',
         alt: 'corgi in a crossed circle with the text “subscription required”',
-        credit: 'Jason Lengstorf',
-        creditLink: 'https://dribbble.com/jlengstorf',
+        credit: '',
+        creditLink: '',
         message: `This content requires a ${type} subscription.`,
       }),
     };
